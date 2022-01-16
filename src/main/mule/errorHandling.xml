@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="errorHandlingFlow" doc:id="4330c015-cd11-4b52-b891-9eaeecea149c" >
+		<http:listener doc:name="Listener" doc:id="5f4a04ee-ee3a-45d4-973c-3c11503c7749" config-ref="firstone-httpListenerConfig" path="/dfg"/>
+	</flow>
+</mule>
