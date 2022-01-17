@@ -1,7 +1,7 @@
 # who covid cases
 WHO COVID cases tracking api
 I will be developing all the three apis 
-   This will be epic
+   
 
 
 1. system api
